@@ -16,8 +16,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kxf-iK-cG6">
+                            <view contentMode="scaleToFill" id="kxf-iK-cG6">
                                 <rect key="frame" x="167" y="136" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="klX-gm-tZS"/>
@@ -25,8 +26,9 @@
                                     <constraint firstAttribute="width" secondItem="kxf-iK-cG6" secondAttribute="height" multiplier="1:1" id="r2G-X9-HcS"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ueE-Bn-5fa">
+                            <view contentMode="scaleToFill" id="ueE-Bn-5fa">
                                 <rect key="frame" x="167" y="266" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ueE-Bn-5fa" secondAttribute="height" multiplier="1:1" id="6tw-Tv-Qfo"/>
@@ -34,8 +36,9 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="MY3-Tl-8oO"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ftf-UQ-OEM">
+                            <view contentMode="scaleToFill" id="Ftf-UQ-OEM">
                                 <rect key="frame" x="167" y="396" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="4Js-so-3dz"/>
@@ -43,8 +46,9 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="vcJ-eP-Zgo"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UG0-XX-Nla">
-                                <rect key="frame" x="127" y="756" width="160" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="UG0-XX-Nla">
+                                <rect key="frame" x="127" y="679" width="160" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="3Vv-9h-9aD"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="iwv-0Y-Ko5"/>
@@ -62,12 +66,11 @@
                             <constraint firstItem="UG0-XX-Nla" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0SE-qf-iO0"/>
                             <constraint firstItem="ueE-Bn-5fa" firstAttribute="top" secondItem="kxf-iK-cG6" secondAttribute="bottom" constant="50" id="1SW-j7-Xmq"/>
                             <constraint firstItem="ueE-Bn-5fa" firstAttribute="top" secondItem="kxf-iK-cG6" secondAttribute="bottom" constant="50" id="7fG-Jr-Ycu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UG0-XX-Nla" secondAttribute="bottom" constant="123" id="Iel-Jd-IUm"/>
                             <constraint firstItem="Ftf-UQ-OEM" firstAttribute="top" secondItem="ueE-Bn-5fa" secondAttribute="bottom" constant="50" id="VX9-Oi-db5"/>
                             <constraint firstItem="ueE-Bn-5fa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XjF-H7-qeb"/>
                             <constraint firstItem="Ftf-UQ-OEM" firstAttribute="top" secondItem="ueE-Bn-5fa" secondAttribute="bottom" constant="50" id="bHh-km-Pom"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UG0-XX-Nla" secondAttribute="bottom" constant="46" id="c38-G2-L9y"/>
                             <constraint firstItem="kxf-iK-cG6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="92" id="cZh-z9-Tpm"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UG0-XX-Nla" secondAttribute="bottom" constant="46" id="gga-kp-cyQ"/>
                             <constraint firstItem="kxf-iK-cG6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="irt-cR-hfI"/>
                             <constraint firstItem="Ftf-UQ-OEM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="u2m-9X-Hz5"/>
                         </constraints>
