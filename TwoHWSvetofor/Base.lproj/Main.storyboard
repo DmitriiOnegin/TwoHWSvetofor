@@ -16,24 +16,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kxf-iK-cG6">
-                                <rect key="frame" x="167" y="191" width="80" height="78"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kxf-iK-cG6">
+                                <rect key="frame" x="167" y="136" width="80" height="80"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="klX-gm-tZS"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="nds-fe-jbl"/>
+                                    <constraint firstAttribute="width" secondItem="kxf-iK-cG6" secondAttribute="height" multiplier="1:1" id="r2G-X9-HcS"/>
+                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ueE-Bn-5fa">
-                                <rect key="frame" x="167" y="319" width="80" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ueE-Bn-5fa">
+                                <rect key="frame" x="167" y="266" width="80" height="80"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ueE-Bn-5fa" secondAttribute="height" multiplier="1:1" id="6tw-Tv-Qfo"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="72D-Dk-ncY"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="MY3-Tl-8oO"/>
+                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ftf-UQ-OEM">
-                                <rect key="frame" x="167" y="443" width="80" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ftf-UQ-OEM">
+                                <rect key="frame" x="167" y="396" width="80" height="80"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="4Js-so-3dz"/>
+                                    <constraint firstAttribute="width" secondItem="Ftf-UQ-OEM" secondAttribute="height" multiplier="1:1" id="HFz-Jp-17s"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="vcJ-eP-Zgo"/>
+                                </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UG0-XX-Nla">
-                                <rect key="frame" x="106" y="701" width="199" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UG0-XX-Nla">
+                                <rect key="frame" x="127" y="756" width="160" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="3Vv-9h-9aD"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="iwv-0Y-Ko5"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                 <connections>
@@ -43,6 +58,19 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="UG0-XX-Nla" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0SE-qf-iO0"/>
+                            <constraint firstItem="ueE-Bn-5fa" firstAttribute="top" secondItem="kxf-iK-cG6" secondAttribute="bottom" constant="50" id="1SW-j7-Xmq"/>
+                            <constraint firstItem="ueE-Bn-5fa" firstAttribute="top" secondItem="kxf-iK-cG6" secondAttribute="bottom" constant="50" id="7fG-Jr-Ycu"/>
+                            <constraint firstItem="Ftf-UQ-OEM" firstAttribute="top" secondItem="ueE-Bn-5fa" secondAttribute="bottom" constant="50" id="VX9-Oi-db5"/>
+                            <constraint firstItem="ueE-Bn-5fa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XjF-H7-qeb"/>
+                            <constraint firstItem="Ftf-UQ-OEM" firstAttribute="top" secondItem="ueE-Bn-5fa" secondAttribute="bottom" constant="50" id="bHh-km-Pom"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UG0-XX-Nla" secondAttribute="bottom" constant="46" id="c38-G2-L9y"/>
+                            <constraint firstItem="kxf-iK-cG6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="92" id="cZh-z9-Tpm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UG0-XX-Nla" secondAttribute="bottom" constant="46" id="gga-kp-cyQ"/>
+                            <constraint firstItem="kxf-iK-cG6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="irt-cR-hfI"/>
+                            <constraint firstItem="Ftf-UQ-OEM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="u2m-9X-Hz5"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="buttonLable" destination="UG0-XX-Nla" id="VYZ-rf-HFW"/>
