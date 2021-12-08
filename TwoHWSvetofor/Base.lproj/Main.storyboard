@@ -21,8 +21,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="klX-gm-tZS"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="nds-fe-jbl"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="80" id="klX-gm-tZS"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="80" id="nds-fe-jbl"/>
                                     <constraint firstAttribute="width" secondItem="kxf-iK-cG6" secondAttribute="height" multiplier="1:1" id="r2G-X9-HcS"/>
                                 </constraints>
                             </view>
@@ -32,8 +32,8 @@
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ueE-Bn-5fa" secondAttribute="height" multiplier="1:1" id="6tw-Tv-Qfo"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="72D-Dk-ncY"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="MY3-Tl-8oO"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="80" id="72D-Dk-ncY"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="80" id="MY3-Tl-8oO"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" id="Ftf-UQ-OEM">
@@ -41,17 +41,17 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="4Js-so-3dz"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="80" id="4Js-so-3dz"/>
                                     <constraint firstAttribute="width" secondItem="Ftf-UQ-OEM" secondAttribute="height" multiplier="1:1" id="HFz-Jp-17s"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="vcJ-eP-Zgo"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="80" id="vcJ-eP-Zgo"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="UG0-XX-Nla">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="UG0-XX-Nla">
                                 <rect key="frame" x="127" y="679" width="160" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="3Vv-9h-9aD"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="iwv-0Y-Ko5"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="3Vv-9h-9aD"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="60" id="iwv-0Y-Ko5"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Button"/>
@@ -68,9 +68,8 @@
                             <constraint firstItem="ueE-Bn-5fa" firstAttribute="top" secondItem="kxf-iK-cG6" secondAttribute="bottom" constant="50" id="7fG-Jr-Ycu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UG0-XX-Nla" secondAttribute="bottom" constant="123" id="Iel-Jd-IUm"/>
                             <constraint firstItem="Ftf-UQ-OEM" firstAttribute="top" secondItem="ueE-Bn-5fa" secondAttribute="bottom" constant="50" id="VX9-Oi-db5"/>
-                            <constraint firstItem="ueE-Bn-5fa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XjF-H7-qeb"/>
                             <constraint firstItem="Ftf-UQ-OEM" firstAttribute="top" secondItem="ueE-Bn-5fa" secondAttribute="bottom" constant="50" id="bHh-km-Pom"/>
-                            <constraint firstItem="kxf-iK-cG6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="92" id="cZh-z9-Tpm"/>
+                            <constraint firstItem="kxf-iK-cG6" firstAttribute="top" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="92" id="cZh-z9-Tpm"/>
                             <constraint firstItem="kxf-iK-cG6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="irt-cR-hfI"/>
                             <constraint firstItem="Ftf-UQ-OEM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="u2m-9X-Hz5"/>
                         </constraints>
